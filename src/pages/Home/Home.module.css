@@ -1,0 +1,28 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  flex-direction: column;
+  padding: 25px;
+  width: 25vw;
+  height: 50vh;
+  margin: 30px;
+  background-color: var(--primary-dark);
+  border-radius: var(--border-radius);
+}
+
+.title {
+  font-size: var(--font-size-xl);
+}
+
+.welcomeText {}
+
+.buttonContainer {}
